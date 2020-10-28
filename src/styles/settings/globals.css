@@ -30,6 +30,12 @@ img {
   height: auto;
 }
 
+a,
+button {
+  font: inherit;
+  color: inherit;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

@@ -1,4 +1,6 @@
 @import "settings/globals.css";
-
+@import "blocks/logo.css";
+@import "blocks/main-menu.css";
+@import "layout/header.css";
 /*DM Serif Display*/
 

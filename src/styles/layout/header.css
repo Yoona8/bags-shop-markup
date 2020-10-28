@@ -1,0 +1,14 @@
+.header {
+  padding-top: 65px;
+  padding-bottom: 25px;
+}
+
+.header__nav {
+  display: grid;
+  align-items: end;
+  grid-template-columns: auto 815px;
+}
+
+.header__menu {
+  margin-bottom: 15px;
+}
