@@ -2,7 +2,7 @@
 @import "blocks/logo.css";
 @import "blocks/main-menu.css";
 @import "blocks/button.css";
+@import "blocks/title.css";
 @import "layout/header.css";
 @import "layout/hero.css";
-/*DM Serif Display*/
-
+@import "layout/main.css";

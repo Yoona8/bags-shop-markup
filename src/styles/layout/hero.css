@@ -42,6 +42,7 @@
   line-height: 1.2;
   font-family: 'DM Serif Display', Georgia, serif;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .hero__img {
