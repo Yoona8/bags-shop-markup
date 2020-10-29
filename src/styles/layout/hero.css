@@ -1,0 +1,49 @@
+.hero {
+  display: grid;
+  grid-template-columns: auto 817px;
+  align-items: center;
+}
+
+.hero__sale {
+  position: relative;
+  margin-left: 110px;
+  margin-right: -110px;
+}
+
+.hero__promo {
+  margin: 0 0 35px;
+  font-size: 24px;
+  text-transform: lowercase;
+}
+
+.hero__percent {
+  position: relative;
+  display: block;
+  font-size: 136px;
+  line-height: 1;
+  font-family: 'DM Serif Display', Georgia, serif;
+  color: var(--accent);
+}
+
+.hero__percent::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -62px;
+  width: 48px;
+  height: 4px;
+  margin-top: 2px;
+  background-color: currentColor;
+}
+
+.hero__promo-text {
+  display: block;
+  font-size: 44px;
+  line-height: 1.2;
+  font-family: 'DM Serif Display', Georgia, serif;
+  text-transform: uppercase;
+}
+
+.hero__img {
+  margin: 0;
+}

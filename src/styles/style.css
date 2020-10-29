@@ -1,6 +1,8 @@
 @import "settings/globals.css";
 @import "blocks/logo.css";
 @import "blocks/main-menu.css";
+@import "blocks/button.css";
 @import "layout/header.css";
+@import "layout/hero.css";
 /*DM Serif Display*/
 

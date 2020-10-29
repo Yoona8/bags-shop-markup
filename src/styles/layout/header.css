@@ -6,7 +6,7 @@
 .header__nav {
   display: grid;
   align-items: end;
-  grid-template-columns: auto 815px;
+  grid-template-columns: auto 817px;
 }
 
 .header__menu {
