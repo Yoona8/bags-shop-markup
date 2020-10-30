@@ -1,0 +1,17 @@
+.link {
+  text-decoration: none;
+  transition: color var(--transition-time);
+}
+
+.link:hover {
+  color: var(--accent);
+}
+
+.link svg {
+  fill: currentColor;
+  transition: fill, transform var(--transition-time);
+}
+
+.link:hover svg {
+  transform: translate(4px, 0);
+}

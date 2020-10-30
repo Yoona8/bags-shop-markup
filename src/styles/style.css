@@ -3,6 +3,9 @@
 @import "blocks/main-menu.css";
 @import "blocks/button.css";
 @import "blocks/title.css";
+@import "blocks/block-description.css";
+@import "blocks/link.css";
+@import "blocks/goods.css";
 @import "layout/header.css";
 @import "layout/hero.css";
 @import "layout/main.css";
