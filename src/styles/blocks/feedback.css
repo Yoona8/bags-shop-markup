@@ -1,0 +1,36 @@
+.feedback__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  padding: 0;
+  color: var(--neutral-gray);
+  text-align: center;
+  background-color: var(--lightest-gray);
+  list-style: none;
+}
+
+.feedback__list li {
+  position: relative;
+  padding: 40px 45px;
+}
+
+.feedback__list li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  right: 0;
+  width: 1px;
+  background-color: var(--light-neutral-gray);
+}
+
+.feedback__list p {
+  margin: 0;
+}
+
+.feedback__author {
+  display: block;
+  margin-top: 25px;
+  font-size: 16px;
+  color: var(--basic-black);
+}
