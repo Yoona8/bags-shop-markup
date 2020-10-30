@@ -1,0 +1,17 @@
+.brands__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.brands__list li {
+  margin-bottom: 20px;
+}
+
+.brands__list li:not(:last-child) {
+  margin-right: 60px;
+}
