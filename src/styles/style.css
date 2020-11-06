@@ -7,8 +7,10 @@
 @import "blocks/link.css";
 @import "blocks/goods.css";
 @import "blocks/brands.css";
+@import "blocks/socials.css";
 @import "blocks/news.css";
 @import "blocks/feedback.css";
 @import "layout/header.css";
 @import "layout/hero.css";
 @import "layout/main.css";
+@import "layout/footer.css";

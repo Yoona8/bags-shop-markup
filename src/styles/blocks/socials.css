@@ -1,0 +1,12 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.socials li {
+  margin: 0 6px;
+}
