@@ -67,3 +67,25 @@
     display: none;
   }
 }
+
+@media (max-width: 770px) {
+  .news__list {
+    display: block;
+    max-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0;
+  }
+
+  .news__list::before {
+    content: none;
+  }
+
+  .news__list li:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .news__list li:last-child {
+    display: block;
+  }
+}

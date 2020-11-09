@@ -66,3 +66,22 @@
     display: none;
   }
 }
+
+@media (max-width: 770px) {
+  .goods__list {
+    display: block;
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0;
+    background-image: none;
+  }
+
+  .goods__list li:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .goods__list li:last-child {
+    display: block;
+  }
+}
