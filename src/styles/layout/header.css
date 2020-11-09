@@ -18,4 +18,8 @@
   .header {
     padding-top: 25px;
   }
+
+  .header__nav {
+    grid-template-columns: 129px auto;
+  }
 }

@@ -57,3 +57,13 @@
   font-weight: 700;
   text-align: right;
 }
+
+@media (max-width: 1150px) {
+  .news__list {
+    grid-template-columns: repeat(2, 315px);
+  }
+
+  .news__list li:last-child {
+    display: none;
+  }
+}

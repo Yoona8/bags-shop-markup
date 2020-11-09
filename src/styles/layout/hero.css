@@ -76,3 +76,30 @@
     font-size: 40px;
   }
 }
+
+@media (max-width: 770px) {
+  .hero__sale {
+    margin-left: 20px;
+  }
+
+  .hero__promo {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .hero__percent {
+    font-size: 90px;
+  }
+
+  .hero__percent::before {
+    left: -20px;
+    width: 20px;
+    height: 4px;
+    margin-top: 2px;
+    background-color: currentColor;
+  }
+
+  .hero__promo-text {
+    font-size: 35px;
+  }
+}
