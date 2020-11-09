@@ -4,6 +4,10 @@
   height: 90px;
 }
 
+.logo img {
+  display: block;
+}
+
 @media (max-width: 1150px) {
   .logo {
     width: 120px;

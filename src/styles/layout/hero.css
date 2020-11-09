@@ -48,3 +48,31 @@
 .hero__img {
   margin: 0;
 }
+
+.hero__img img {
+  display: block;
+}
+
+@media (max-width: 1150px) {
+  .hero {
+    grid-template-columns: auto auto;
+  }
+
+  .hero__sale {
+    margin-left: 80px;
+    margin-right: -80px;
+  }
+
+  .hero__promo {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+
+  .hero__percent {
+    font-size: 100px;
+  }
+
+  .hero__promo-text {
+    font-size: 40px;
+  }
+}
