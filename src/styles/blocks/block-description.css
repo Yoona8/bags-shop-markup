@@ -4,3 +4,9 @@
   font-size: 18px;
   text-align: center;
 }
+
+@media (max-width: 340px) {
+  .block-description {
+    font-size: 16px;
+  }
+}

@@ -103,3 +103,23 @@
     font-size: 35px;
   }
 }
+
+@media (max-width: 600px) {
+  .hero {
+    display: block;
+  }
+
+  .hero__sale {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .hero__percent {
+    display: inline-block;
+  }
+
+  .hero__img {
+    display: none;
+  }
+}

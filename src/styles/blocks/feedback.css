@@ -52,3 +52,9 @@
     height: 1px;
   }
 }
+
+@media (max-width: 340px) {
+  .feedback__list li {
+    padding: 20px 25px;
+  }
+}

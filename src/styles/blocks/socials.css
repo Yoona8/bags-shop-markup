@@ -10,3 +10,12 @@
 .socials li {
   margin: 0 6px;
 }
+
+.socials svg {
+  fill: var(--dark-accent-secondary);
+  transition: fill var(--transition-time);
+}
+
+.socials a:hover svg {
+  fill: var(--accent-secondary);
+}

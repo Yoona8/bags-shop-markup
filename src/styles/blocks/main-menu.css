@@ -38,3 +38,19 @@
     font-size: 16px;
   }
 }
+
+@media (max-width: 770px) {
+  .main-menu li:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .main-menu .current::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 28px;
+    height: 1px;
+    background-color: var(--accent-secondary);
+  }
+}

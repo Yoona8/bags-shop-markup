@@ -44,3 +44,35 @@
 .footer__content .button {
   min-width: 143px;
 }
+
+@media (max-width: 770px) {
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .footer__inner {
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+  .footer__inner {
+    display: block;
+    text-align: center;
+  }
+
+  .footer__title {
+    margin-bottom: 0;
+  }
+
+  .footer__content:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .footer__socials {
+    margin-bottom: 5px;
+  }
+}

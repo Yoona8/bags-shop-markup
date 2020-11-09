@@ -32,5 +32,14 @@
   .main__news {
     margin-bottom: 70px;
   }
+}
 
+@media (max-width: 340px) {
+  .main,
+  .main__hero,
+  .main__goods,
+  .main__brands,
+  .main__news {
+    margin-bottom: 40px;
+  }
 }

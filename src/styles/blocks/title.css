@@ -8,3 +8,9 @@
   text-align: center;
   letter-spacing: 2px;
 }
+
+@media (max-width: 340px) {
+  .title {
+    font-size: 30px;
+  }
+}
