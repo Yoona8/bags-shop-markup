@@ -4,8 +4,10 @@
   height: 90px;
 }
 
-.logo {
-  display: block;
-  width: 163px;
-  height: 90px;
+@media (max-width: 1150px) {
+  .logo {
+    width: 120px;
+    height: 66px;
+  }
 }
+

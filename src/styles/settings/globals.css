@@ -18,7 +18,8 @@ body {
 }
 
 body {
-  min-width: 1210px;
+  /*min-width: 1210px;*/
+  min-width: 320px;
   font-size: 14px;
   line-height: 1.7;
   font-family: 'PT Serif', Georgia, serif;
@@ -51,7 +52,7 @@ button {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 20px;
 }

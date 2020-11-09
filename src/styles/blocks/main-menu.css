@@ -32,3 +32,9 @@
   height: 1px;
   background-color: var(--accent-secondary);
 }
+
+@media (max-width: 1150px) {
+  .main-menu {
+    font-size: 16px;
+  }
+}
